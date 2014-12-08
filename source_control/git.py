@@ -568,6 +568,7 @@ def switch_version(git_path, module, dest, remote, version, recursive, track_sub
 
 # ===========================================
 
+@profile
 def main():
     module = AnsibleModule(
         argument_spec = dict(
